@@ -16,6 +16,7 @@ import os
 
 APP_PASSWORD = os.environ.get("APP_PASSWORD")
 MY_EMAIL = os.environ.get("MY_EMAIL")
+print(APP_PASSWORD)
 
 data = pandas.read_csv("./birthdays.csv")
 month = dt.datetime.now().month
